@@ -32,8 +32,7 @@ function registerPushwooshAndroid() {
             if(typeof(userData) != "undefined") {
 				      console.warn('user data: ' + JSON.stringify(userData));
 			      }
-      console.log('notificacao');
-      console.log(event);
+      console.log('notificacao: ' + JSON.stringify(event));
     //and show alert
 			alert(title);
 
