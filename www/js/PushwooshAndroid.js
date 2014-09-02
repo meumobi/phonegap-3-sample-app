@@ -30,10 +30,11 @@ function registerPushwooshAndroid() {
 
             //dump custom data to the console if it exists
             if(typeof(userData) != "undefined") {
-				console.warn('user data: ' + JSON.stringify(userData));
-			}
-
-			//and show alert
+				      console.warn('user data: ' + JSON.stringify(userData));
+			      }
+      console.log('notificacao');
+      console.log(event);
+    //and show alert
 			alert(title);
 
 			//stopping geopushes
