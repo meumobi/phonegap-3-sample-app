@@ -30,10 +30,10 @@ function registerPushwooshAndroid() {
 
             //dump custom data to the console if it exists
             if(typeof(userData) != "undefined") {
-				      console.warn('user data: ' + JSON.stringify(userData));
-			      }
-      console.log('notificacao: ' + JSON.stringify(event.notification));
-    //and show alert
+				console.warn('user data: ' + JSON.stringify(userData));
+			}
+
+			//and show alert
 			alert(title);
 
 			//stopping geopushes
@@ -48,7 +48,7 @@ function registerPushwooshAndroid() {
 	//!!! Please note this is an API for PGB plugin. This code is different in CLI plugin!!!
 	//At the moment I cannot update the plugin to the latest version. TY PGB Team!
 	//see http://community.phonegap.com/nitobi/topics/malformed_xml_in_plugin_xml_file?utm_source=notification&utm_medium=email&utm_campaign=new_reply&utm_content=reply_button&reply%5Bid%5D=14224918#reply_14224918
-	pushNotification.registerDevice({ projectid: "509541969118", appid : "0EF2C-CCCFD" },
+	pushNotification.registerDevice({ projectid: "60756016005", appid : "539E9-AB8AE" },
 		function(token)
 		{
 			alert(token);
