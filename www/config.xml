@@ -3,10 +3,10 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.meumobi.santanderpt"
+        id        = "com.meumobi.hellopushwoosh"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Hello Pushwoosh</name>
 
     <description>
         Hello World sample application with Pushwoosh Phonegap push notifications plugin integrated
@@ -53,7 +53,7 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
-    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.0.2" />
+    <gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.4.1" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
